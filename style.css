@@ -1,0 +1,32 @@
+/*--------------------------------------------------------------*/
+body{
+    display:  grid;
+    grid-template-areas: 
+    "hea hea hea"
+    "asi mai mai"
+    "foo foo foo";
+    grid-template-columns: 400px auto auto;
+}
+.hea{
+    background-color: black;
+    grid-area: hea;
+}
+.asi{
+    background-color: brown;
+    grid-area: asi;
+}
+.mai{
+    background-color: aquamarine;
+    grid-area: mai;
+}
+.foo{
+    background-color: rgb(207, 126, 20);
+    grid-area: foo;
+}
+/*--------------------------------------------------------------*/
+.img{
+    width: 95%;
+}
+h1{
+    color: white;
+}
