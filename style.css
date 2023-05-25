@@ -12,12 +12,14 @@ body{
     grid-area: hea;
 }
 .asi{
-    background-color: brown;
+    background-color: rgb(52, 110, 196);
     grid-area: asi;
+    
 }
 .mai{
     background-color: aquamarine;
     grid-area: mai;
+    min-height: 400px;
 }
 .foo{
     background-color: rgb(207, 126, 20);
@@ -29,4 +31,5 @@ body{
 }
 h1{
     color: white;
+    text-align: center;
 }
